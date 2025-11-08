@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 class Encoder(nn.Module):
-    def __init__(self, input_dim, embed_dim, hidden_dim, n_layers=1)
+    def __init__(self, input_dim, embed_dim, hidden_dim, n_layers=1):
         super().__init__()
         self.embedding = nn.Embedding(input_dim, embed_dim)
         self.lstm = nn.LSTM(embed_dim, hidden_dim, n_layers, batch_first=True)
