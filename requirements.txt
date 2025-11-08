@@ -1,0 +1,13 @@
+torch
+torchtext
+datasets
+pandas
+pyarrow
+nltk
+tqdm
+numpy
+matplotlib
+sentencepiece
+
+
+
